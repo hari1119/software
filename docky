@@ -120,6 +120,7 @@ case $@ in
     help)  help $@;;
     ps) processor $@;;
     info) info $@;;
+    install ) install $@;;
     --install | -i) install $@;;
     --removeall | -ra) removeall $@;;
     --clear | -c) removeall $@;;
